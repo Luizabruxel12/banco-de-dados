@@ -30,7 +30,6 @@ for rodada in range(1, total_de_tentativas + 1):
         print("Você deve digitar um número entre 1 e 100!")
         continue
     
- 
     acertou = chute == numero_secreto
     maior   = chute > numero_secreto
     menor   = chute < numero_secreto
