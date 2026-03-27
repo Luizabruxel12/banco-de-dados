@@ -15,7 +15,7 @@ def escolhe_jogo():
         forca.jogar()
     elif(jogo == 2):
         print("Jogando adivinhação")
-        AdivinhaçãoemPython.jogar_adivinhacao()
+        AdivinhaçãoemPython.jogar()
 
 if(__name__=="__main__"):
     escolhe_jogo()
